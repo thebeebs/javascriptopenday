@@ -750,9 +750,7 @@ th {
 thead th {
 	padding: 0px 1.6rem 1rem; vertical-align: bottom;
 }
-td:first-child {
-	color: inherit;
-}
+
 tbody tr:nth-child(2n+1) {
 	background-color: hsla(0, 0%, 0%, 0.05);
 }
