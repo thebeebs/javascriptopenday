@@ -1662,22 +1662,22 @@ footer {
 	background: rgb(255, 140, 0); color: rgb(65, 65, 67); margin-top: 0px; position: relative; z-index: 2;
 }
 :nth-child(1).focus-areas__bar__tile {
-	background: rgb(49, 210, 247);
+	background: rgb(0, 178, 148);
 }
 :nth-child(1).focus-areas__bar__tile::after {
-	background: rgb(49, 210, 247);
+	background: rgb(0, 178, 148);
 }
 :nth-child(1).focus-areas__bar__tile::before {
-	background: rgb(49, 210, 247);
+	background: rgb(0, 178, 148);
 }
 :nth-child(2).focus-areas__bar__tile {
-	background: rgb(209, 236, 60);
+	background: rgb(186, 216, 10);
 }
 :nth-child(2).focus-areas__bar__tile::after {
-	background: rgb(209, 236, 60);
+	background: rgb(186, 216, 10);
 }
 :nth-child(2).focus-areas__bar__tile::before {
-	background: rgb(209, 236, 60);
+	background: rgb(186, 216, 10);
 }
 :nth-child(3).focus-areas__bar__tile {
 	background: rgb(255, 241, 0);
@@ -1689,13 +1689,13 @@ footer {
 	background: rgb(255, 241, 0);
 }
 :nth-child(4).focus-areas__bar__tile {
-	background: rgb(255, 200, 61);
+	background: rgb(255, 140, 0);
 }
 :nth-child(4).focus-areas__bar__tile::after {
-	background: rgb(255, 200, 61);
+	background: rgb(255, 140, 0);
 }
 :nth-child(4).focus-areas__bar__tile::before {
-	background: rgb(255, 200, 61);
+	background: rgb(255, 140, 0);
 }
 @media all and (min-width:40em)
 {
@@ -1744,11 +1744,12 @@ footer {
 .focus-areas::before {
 	top: 0px; width: 50%; height: 100%; position: absolute; content: "";
 }
+
 .focus-areas::before {
-	background: rgb(58, 150, 221); left: 0px;
+	background: rgb(0, 130, 114); left: 0;
 }
 .focus-areas::after {
-	background: rgb(255, 170, 68); right: 0px;
+	background: rgb(216, 59, 1); right: 0px;
 }
 .focus-areas__bar__tile {
 	width: 25%; min-height: 225px;
@@ -1779,8 +1780,13 @@ footer {
 }
 }
 .section--summit-schedule {
-	background: rgb(0, 120, 215);
+	background: rgb(50, 20, 90)
 }
+
+.section--summit-location {
+	background: rgb(92, 45, 145)
+}
+
 .room-controls {
 	display: none;
 }

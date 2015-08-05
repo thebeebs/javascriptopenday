@@ -3,12 +3,10 @@
 }
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
     @{
         var msdevuk = "@msdevuk";
     }
-    <meta content="IE=11.0000"
-          http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link href="/4e4476d1.favicon.ico"
@@ -16,17 +14,17 @@
     <title>Microsoft Web Platform Day | Let's Dev This</title>
     <meta name="description" content="A day long event about the Microsoft Web Platform delivered by Martin Beeby and Martin Kearn.">
     <meta name="robots" content="noindex, nofollow"><!-- SOCIAL META -->
-    <meta content="JavaScript Open Day London | June 26th, 2015" property="og:title">
-    <meta content="JavaScript Open Day London" property="og:site_name">
-    <meta content="JavaScript Open day is a full day event all about JavaScript and the Web presented by Microsoft Edge. We will have 7 expert speakers from the Web Community speaking about all aspects of JavaScript development, from ES6 and cutting edge client side development through to JS on the server."
-          property="og:description">
-    <meta content="http://javascriptopenday.azurewebsites.net" property="og:url">
-    <meta content="/images/websummit2015/project-spartan-devices-fb.png" property="og:image">
+    <meta content="Microsoft Web Platform Day" property="og:title">
+    <meta content="Microsoft Web Platform Day" property="og:site_name">
+    <meta content="Microsoft Web Platform Day"
+          property="og:description">    <img src="" />
+    <meta content="http://mswebday.azurewebsites.net" property="og:url">
+    <meta content="http://mswebday.azurewebsites.net/index_files/microsoftwebplatformday.png" property="og:image">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@msdevuk">
-    <meta name="twitter:title" content="JavaScript Open Day">
-    <meta name="twitter:description" content="JavaScript Open day is a full day event all about JavaScript and the Web presented by Microsoft Edge. We will have 7 expert speakers from the Web Community speaking about all aspects of JavaScript development, from ES6 and cutting edge client side development through to JS on the server.
-">
+    <meta name="twitter:title" content="Microsoft Web Platform Day">
+    <meta name="twitter:description" content="A full day dedicated to web development from a
+                                                Microsoft perspective.">
     <meta name="twitter:image" content="/images/websummit2015/project-spartan-devices-fb.png">
     <!-- EDGECORE STYLES -->
     <link href="index_files/cedd974c.summit2015.css" rel="stylesheet">
@@ -44,8 +42,7 @@
                     <div class="summit-intro__tile__body">
                         <img src="index_files/titlewebplatform.jpg" />
                         <h2>
-                            Next Event Brighton Aug 26th<br>
-                            9.00am start - 5.00 pm
+                            Next Event: <br />Brighton, Tuesday August 25th 2015<br>
                         </h2>
                         <div class="actions">
                             <a class="button button--page-primary" href="https://msevents.microsoft.com/CUI/EventDetail.aspx?EventID=1032629091&Culture=en-GB&community=0" onclick="ga('send', 'event', 'Registration', 'Click Hero', 'Click Hero Button', 1);">Register</a>
@@ -58,8 +55,8 @@
                                    data-target="about-the-summit" data-scroll="">About</a>
                             </li>
                             <li>
-                                <a href="#location" data-target="location"
-                                   data-scroll="">Location</a>
+                                <a href="#locations" data-target="locations"
+                                   data-scroll="">Locations</a>
                             </li>
                             <li>
                                 <a href="#sessions" data-target="sessions"
@@ -94,7 +91,7 @@
                                                 Microsoft perspective.  In the morning we
                                                 will look at what’s happing in ASP.NET, Edge,
                                                 Visual Studio and Azure and how you can use
-                                                new capabilities to build better websites.
+                                                new capabilities to build better websites and Webapps.
 
                                                 Then in the afternoon we will look at ways
                                                 in which we can build faster, slicker and
@@ -104,9 +101,9 @@
                                             </p>
                                         </li>
                                         <li class="module">
-                                            <h3 class="about-summit__title">World Class Speakers</h3>
+                                            <h3 class="about-summit__title">Live Code and Demos</h3>
                                             <p class="about-summit__description">
-                                                The day will consist of 9 presentations where
+                                                The day will consist of 9 presentations which
                                                 will cover all aspects of current and future
                                                 web development techniques. We will be building
                                                 a web app throughout the day to show you can
@@ -138,8 +135,7 @@
                                     <div class="tile focus-areas__bar__tile">
                                         <div class="focus-areas__bar__tile__content">
                                             <h3>
-                                                What’s new from the Microsoft Edge team: EdgeHTML, Chakra, and
-                                                Modern.IE
+                                                What’s new in ASP.Net, Edge and the Microsoft platform as a whole.
                                             </h3>
                                         </div>
                                     </div>
@@ -154,7 +150,7 @@
                                     <div class="tile focus-areas__bar__tile">
                                         <div class="focus-areas__bar__tile__content">
                                             <h3>
-                                                How to use Machine Learning inside of your JavaScript applications.
+                                                How to use the cloud to build highly scalable appliactions.
                                             </h3>
                                         </div>
                                     </div>
@@ -171,60 +167,85 @@
                     </div>
                 </div>
             </section><!-- REGISTER -->
-            <!-- LOCATION --><section class="section section--banner section--banner--light section--summit-location"
-                                      id="location" role="region">
+            <!-- LOCATION --><section class="section section--banner section--summit-location"
+                                      id="locations" role="region">
                 <div class="container">
                     <div class="section__header">
-                        <h2>Location</h2>
+                        <h2>Locations</h2>
                     </div>
                     <div class="section__body">
-                        <div class="layout layout--equal">
-                            <div class="module">
-                                <img class="summit-location__image" alt="St James Theatre London"
-                                     src="index_files/venue-md.jpg">
-                            </div>
-                            <div class="module">
-                                <h3>Venue</h3>
-                                <p class="vcard summit-address">
-                                    <span class="adr">
-                                        <span class="street-address"><a href="http://www.stjamestheatre.co.uk/">St James Theatre</a><br>12 Palace Street,</span><br><span class="locality">London</span>, <span class="postal-code">SW1E 5JA</span>
-                                    </span>
-                                </p>
-                                <p>Food will be provided</p>
-                                <p>
-                                    Please note that secured personal storage is not available―please plan to
-                                    keep your belongings on your person.
-                                </p>
-                            </div>
-                            <div class="module">
-                                <h3>Getting there</h3>
-                                <p>
-                                    <b>By Tube</b>
-                                    <br />
-                                    The nearest tube station is Victoria.
-                                    We are situated within a 5 minute walk
-                                    of the station.
-                                </p>
-                                <p>
-                                    Victoria Station is easily accessible
-                                    from the District, Circle and Victoria lines.
-                                </p>
-                                <p>
-                                    <b>By Bus</b>
-                                    <br />
-                                    Routes 16, 38, 52, 73, 82, 42, 148 all pass near the theatre
-                                </p>
-                                <p>
-                                    <b>Parking</b>
-                                    <br />
-                                    The nearest off-street parking to the theatre is,<br /><br />
-                                    London Victoria<br />
-                                    NCP, Semley Place<br />
-                                    London SW1W 9QL
-                                </p>
-
-                            </div>
-                        </div>
+                        <table class="summit-schedule__panel__table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">City</th>
+                                    <th scope="col">Location</th>
+                                    <th scope="col">Registration</th>
+                                </tr>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">Tuesday 25th August 2015</td>
+                                    <td >
+                                        Brighton
+                                    </td>
+                                    <td class="cell--social">
+                                        Old Ship Hotel
+                                    </td>
+                                    <td>
+                                        <a href="#">Coming Soon</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Thursday 24th September 2015</td>
+                                    <td>
+                                        Manchester
+                                    </td>
+                                    <td class="cell--social">
+                                        MacDonald Hotel
+                                    </td>
+                                    <td>
+                                        <a href="#">Coming Soon</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Tuesday 13 October 2015</td>
+                                    <td>
+                                        Birmingham 
+                                    </td>
+                                    <td class="cell--social">
+                                        Maple House
+                                    </td>
+                                    <td>
+                                        <a href="#">Coming Soon</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Tuesday 24th November 2015</td>
+                                    <td>
+                                        London
+                                    </td>
+                                    <td class="cell--social">
+                                        ETC Victoria
+                                    </td>
+                                    <td>
+                                        <a href="#">Coming Soon</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Tuesday 8th December 2015</td>
+                                    <td>
+                                        Nottingham
+                                    </td>
+                                    <td class="cell--social">
+                                        Park Plaza
+                                    </td>
+                                    <td>
+                                        <a href="#">Coming Soon</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                       
                     </div>
                 </div>
             </section><!-- SESSIONS --><section class="section section--summit-sessions"
@@ -294,13 +315,7 @@
                         <h2>Schedule</h2>
                         <h3>Session times subject to change.</h3>
                     </div>
-                    <table class="summit-schedule__panel__table">
-                        <thead>
-                            <tr>
-                                <th scope="col"></th>
-                                <th scope="col"></th>
-                            </tr>
-                        <tbody>
+                    <table class="summit-schedule__panel__table">                       
                             <tr>
                                 <td scope="row">8:30 – 9:00</td>
                                 <td class="cell--social" colspan="3">Registration</td>
@@ -378,8 +393,6 @@
                                 <td scope="row">16:45 - 17:00</td>
                                 <td class="cell--social" colspan="3">Closing </td>
                             </tr>
-
-                        </tbody>
                     </table>
                 </div>
             </section>
