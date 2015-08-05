@@ -1592,13 +1592,14 @@ footer {
 	margin-top: 0px;
 }
 .summit-intro__tile {
-	background: rgb(0, 120, 215); padding: 0px;
+    background: rgb(50, 20, 90);
+    padding: 0;
 }
 .summit-intro__tile__body {
 	padding: 2.4rem;
 }
 .summit-intro__tile__bar {
-	background: rgb(0, 109, 195); list-style: none; padding: 1.2rem 2.4rem 2.4rem; margin-top: 0px;
+	background: rgb(92, 45, 145); list-style: none; padding: 1.2rem 2.4rem 2.4rem; margin-top: 0px;
 }
 .summit-intro__tile__nav {
 	margin: 0px;
