@@ -53,20 +53,20 @@ select {
 }
 
 body {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .content {
-    margin: 0px auto 4.8rem;
+    margin: 0 auto 4.8rem;
 }
 
-@media all and (min-width:33.75em) {
+@media all and (min-width:540px) {
     .content {
         margin-bottom: 6rem;
     }
 }
 
-@media all and (min-width:60em) {
+@media all and (min-width:960px) {
     .content {
         margin-bottom: 8.4rem;
     }
@@ -315,7 +315,7 @@ h6 {
     font-size: 0.8rem;
 }
 
-@media all and (min-width:33.75em) {
+@media all and (min-width:540px) {
     .headline {
         font-size: 5.4rem;
     }
@@ -347,7 +347,7 @@ h6 {
     }
 }
 
-@media all and (min-width:60em) {
+@media all and (min-width:960px) {
     .headline {
         font-size: 62rem;
     }
@@ -384,7 +384,7 @@ img {
 }
 
 input:not([type=checkbox]):not([type=range]):not([type=reset]):not([type=submit]):not([type=button]):not([type=radio]) {
-    margin: 0.4rem 0px;
+    margin: 0.4rem 0;
     padding: 0.4rem 0.8rem;
     border: 2px solid currentColor;
     -moz-border-image: none;
@@ -396,7 +396,7 @@ input:not([type=checkbox]):not([type=range]):not([type=reset]):not([type=submit]
 }
 
 select {
-    margin: 0.4rem 0px;
+    margin: 0.4rem 0;
     padding: 0.4rem 0.8rem;
     border: 2px solid currentColor;
     -moz-border-image: none;
@@ -408,7 +408,7 @@ select {
 }
 
 textarea {
-    margin: 0.4rem 0px;
+    margin: 0.4rem 0;
     padding: 0.4rem 0.8rem;
     border: 2px solid currentColor;
     -moz-border-image: none;
@@ -534,109 +534,109 @@ input[type=submit] {
 }
 
 .button.disabled {
-    outline: 0px;
+    outline: 0;
     cursor: not-allowed;
     pointer-events: none;
 }
 
 [disabled].button {
-    outline: 0px;
+    outline: 0;
     cursor: not-allowed;
     pointer-events: none;
 }
 
 button.disabled {
-    outline: 0px;
+    outline: 0;
     cursor: not-allowed;
     pointer-events: none;
 }
 
 button[disabled] {
-    outline: 0px;
+    outline: 0;
     cursor: not-allowed;
     pointer-events: none;
 }
 
 fieldset[disabled] .button {
-    outline: 0px;
+    outline: 0;
     cursor: not-allowed;
     pointer-events: none;
 }
 
 fieldset[disabled] button {
-    outline: 0px;
+    outline: 0;
     cursor: not-allowed;
     pointer-events: none;
 }
 
 fieldset[disabled] input[type=button] {
-    outline: 0px;
+    outline: 0;
     cursor: not-allowed;
     pointer-events: none;
 }
 
 fieldset[disabled] input[type=reset] {
-    outline: 0px;
+    outline: 0;
     cursor: not-allowed;
     pointer-events: none;
 }
 
 fieldset[disabled] input[type=submit] {
-    outline: 0px;
+    outline: 0;
     cursor: not-allowed;
     pointer-events: none;
 }
 
 fieldset[disabled] select {
-    outline: 0px;
+    outline: 0;
     cursor: not-allowed;
     pointer-events: none;
 }
 
 input[type=button].disabled {
-    outline: 0px;
+    outline: 0;
     cursor: not-allowed;
     pointer-events: none;
 }
 
 input[type=button][disabled] {
-    outline: 0px;
+    outline: 0;
     cursor: not-allowed;
     pointer-events: none;
 }
 
 input[type=reset].disabled {
-    outline: 0px;
+    outline: 0;
     cursor: not-allowed;
     pointer-events: none;
 }
 
 input[type=reset][disabled] {
-    outline: 0px;
+    outline: 0;
     cursor: not-allowed;
     pointer-events: none;
 }
 
 input[type=submit].disabled {
-    outline: 0px;
+    outline: 0;
     cursor: not-allowed;
     pointer-events: none;
 }
 
 input[type=submit][disabled] {
-    outline: 0px;
+    outline: 0;
     cursor: not-allowed;
     pointer-events: none;
 }
 
 select.disabled {
-    outline: 0px;
+    outline: 0;
     cursor: not-allowed;
     pointer-events: none;
 }
 
 select[disabled] {
-    outline: 0px;
+    outline: 0;
     cursor: not-allowed;
     pointer-events: none;
 }
@@ -677,14 +677,14 @@ input[type=submit].button--page-primary {
 }
 
 select {
-    border-radius: 0px;
+    border-radius: 0;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
 }
 
     select:focus {
-        outline: 0px;
+        outline: 0;
     }
 
 input[type=checkbox] {
@@ -708,7 +708,7 @@ input[type=radio]::-ms-check {
 }
 
 input[type=range] {
-    padding: 1.6rem 0px;
+    padding: 1.6rem 0;
     border: currentColor;
     -moz-border-image: none;
     -o-border-image: none;
@@ -1299,7 +1299,7 @@ th {
 }
 
 thead th {
-    padding: 0px 1.6rem 1rem;
+    padding: 0 1.6rem 1rem;
     vertical-align: bottom;
 }
 
@@ -1320,27 +1320,27 @@ li {
 }
 
     li:first-child {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
 .list--avatars {
     list-style: none;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 .list--bios {
     list-style: none;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 .list--icon-links {
     list-style: none;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 .list--links {
     list-style: none;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 .item-description {
@@ -1363,16 +1363,16 @@ li {
 }
 
 .list--bios li:first-child {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .list--icon-links li:first-child {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .list--icon-links .icon-link::before {
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     color: inherit;
     line-height: 1;
     font-size: 24px;
@@ -1402,8 +1402,8 @@ li {
 }
 
 .list--bios .avatar {
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     position: absolute;
 }
 
@@ -1412,11 +1412,11 @@ li {
 }
 
     .list--avatars li {
-        margin: 0px 0px 1.2rem 1.2rem;
+        margin: 0 0 1.2rem 1.2rem;
         display: inline-block;
     }
 
-@media all and (min-width:33.75em) {
+@media all and (min-width:540px) {
     .list--bios li {
         margin-top: 3.2rem;
     }
@@ -1445,7 +1445,7 @@ li {
     }
 }
 
-@media all and (min-width:20em) {
+@media all and (min-width:320px) {
     .list--bios .module {
         padding-left: 6.4rem;
     }
@@ -1463,7 +1463,7 @@ li {
     }
 }
 
-@media all and (min-width:33.75em) {
+@media all and (min-width:540px) {
     .list--bios .module {
         padding-left: 8rem;
     }
@@ -1473,7 +1473,7 @@ li {
     }
 }
 
-@media all and (min-width:33.75em) {
+@media all and (min-width:540px) {
     .list--bios .module {
         padding-left: 8.4rem;
     }
@@ -1511,7 +1511,7 @@ li {
     display: block;
 }
 
-@media all and (min-width:33.75em) {
+@media all and (min-width:540px) {
     .section {
         margin-top: 6rem;
     }
@@ -1529,7 +1529,7 @@ li {
     }
 }
 
-@media all and (min-width:60em) {
+@media all and (min-width:960px) {
     .section {
         margin-top: 8.4rem;
     }
@@ -1540,7 +1540,7 @@ li {
 }
 
 .section--page-intro {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .breadcrumb {
@@ -1577,7 +1577,7 @@ li {
     max-width: 60rem;
 }
 
-@media all and (min-width:33.75em) {
+@media all and (min-width:540px) {
     .breadcrumb {
         margin-top: 3.2rem;
     }
@@ -1587,7 +1587,7 @@ li {
     }
 }
 
-@media all and (min-width:48em) {
+@media all and (min-width:768px) {
     .breadcrumb {
         margin-top: 4.8rem;
     }
@@ -1599,7 +1599,7 @@ li {
 
 .section--banner {
     background: rgb(65, 65, 67);
-    padding: 2.4rem 0px;
+    padding: 2.4rem 0;
     color: rgb(255, 255, 255);
     overflow: hidden;
 }
@@ -1661,7 +1661,7 @@ li {
     .section--banner--light a:not(.button) {
         color: rgb(0, 111, 198);
         border-bottom-color: currentColor;
-        border-bottom-width: 0px;
+        border-bottom-width: 0;
         border-bottom-style: none;
     }
 
@@ -1680,12 +1680,12 @@ li {
 }
 
 .image-banner__tile {
-    margin-top: 0px;
+    margin-top: 0;
     position: relative;
     z-index: 2;
 }
 
-@media all and (min-width:33.75em) {
+@media all and (min-width:540px) {
     .section--banner {
         margin-top: 3.2rem;
         position: relative;
@@ -1717,20 +1717,20 @@ li {
     }
 }
 
-@media all and (max-width:47.93em) {
+@media all and (max-width:766px) {
     .section--image-banner .container {
         width: 100%;
     }
 }
 
-@media all and (min-width:48em) {
+@media all and (min-width:768px) {
     .section--banner {
-        padding: 4.8rem 0px;
+        padding: 4.8rem 0;
         margin-top: 4.8rem;
     }
 
     .section--image-banner {
-        padding: 4.8rem 0px;
+        padding: 4.8rem 0;
         margin-top: 4.8rem;
     }
 
@@ -1751,7 +1751,7 @@ li {
     }
 
     .section--banner .module--secondary {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .section--banner .module--flush-bottom {
@@ -1772,12 +1772,12 @@ li {
 
     .image-banner__background__image {
         margin: auto;
-        left: 0px;
-        top: 0px;
+        left: 0;
+        top: 0;
         width: auto;
         height: auto;
-        right: 0px;
-        bottom: 0px;
+        right: 0;
+        bottom: 0;
         position: absolute;
         min-height: 50%;
         min-width: 50%;
@@ -1791,7 +1791,7 @@ li {
 }
 
 .container {
-    margin: 0px auto;
+    margin: 0 auto;
     width: 92.5%;
     max-width: 144rem;
 }
@@ -1861,10 +1861,10 @@ li {
 }
 
 :only-of-type.module {
-    max-width: 60em;
+    max-width: 960px;
 }
 
-@media all and (min-width:20em) {
+@media all and (min-width:320px) {
     .container {
         width: 91.1%;
     }
@@ -1887,17 +1887,17 @@ li {
     }
 
     :first-child.module {
-        margin-top: 0px;
+        margin-top: 0;
     }
 }
 
-@media all and (min-width:33.75em) {
+@media all and (min-width:540px) {
     .container {
         width: 87.5%;
     }
 }
 
-@media all and (min-width:48em) {
+@media all and (min-width:768px) {
     .container {
         width: 90%;
     }
@@ -1918,28 +1918,28 @@ li {
     }
 }
 
-@media all and (min-width:48em) {
+@media all and (min-width:768px) {
     .layout--basic .module {
         width: 50%;
-        margin-top: 0px;
+        margin-top: 0;
         float: left;
     }
 
     .layout--basic--alt .module {
         width: 50%;
-        margin-top: 0px;
+        margin-top: 0;
         float: left;
     }
 
     .layout--basic--offset .module {
         width: 50%;
-        margin-top: 0px;
+        margin-top: 0;
         float: left;
     }
 
     .layout--basic--offset--alt .module {
         width: 50%;
-        margin-top: 0px;
+        margin-top: 0;
         float: left;
     }
 
@@ -1960,7 +1960,7 @@ li {
     }
 }
 
-@media all and (min-width:60em) {
+@media all and (min-width:960px) {
     .layout--basic .module--primary {
         width: 62.5%;
     }
@@ -1994,41 +1994,41 @@ li {
     }
 }
 
-@media all and (min-width:33.75em) {
+@media all and (min-width:540px) {
     .layout--equal :nth-last-child(2):first-child.module {
         width: 50%;
-        margin-top: 0px;
+        margin-top: 0;
     }
 
         .layout--equal :nth-last-child(2):first-child.module ~ .module {
             width: 50%;
-            margin-top: 0px;
+            margin-top: 0;
         }
 }
 
-@media all and (min-width:60em) {
+@media all and (min-width:960px) {
     .layout--equal :nth-last-child(3):first-child.module {
         width: 33.33%;
-        margin-top: 0px;
+        margin-top: 0;
     }
 
         .layout--equal :nth-last-child(3):first-child.module ~ .module {
             width: 33.33%;
-            margin-top: 0px;
+            margin-top: 0;
         }
 
     .layout--equal :nth-last-child(4):first-child.module {
         width: 25%;
-        margin-top: 0px;
+        margin-top: 0;
     }
 
         .layout--equal :nth-last-child(4):first-child.module ~ .module {
             width: 25%;
-            margin-top: 0px;
+            margin-top: 0;
         }
 }
 
-@media all and (max-width:60em) and (min-width:33.75em) {
+@media all and (max-width:960px) and (min-width:540px) {
     .layout--equal :nth-last-child(3):first-child.module ~ .module {
         margin-top: 3.2rem;
     }
@@ -2048,19 +2048,19 @@ li {
         }
 
     .layout--equal :nth-last-child(3):first-child.module {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .layout--equal :nth-last-child(4):first-child.module {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
         .layout--equal :nth-last-child(4):first-child.module ~ :nth-child(2).module {
-            margin-top: 0px;
+            margin-top: 0;
         }
 }
 
-@media all and (min-width:33.75em) {
+@media all and (min-width:540px) {
     .layout--halves .module {
         width: 50%;
         margin-top: 3.2rem;
@@ -2072,11 +2072,11 @@ li {
     }
 
     .layout--halves :nth-child(-n+2).module {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .layout--thirds :nth-child(-n+2).module {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .layout--halves :nth-child(2n+1).module {
@@ -2088,7 +2088,7 @@ li {
     }
 }
 
-@media all and (min-width:60em) {
+@media all and (min-width:960px) {
     .layout--thirds .module {
         width: 33.33%;
     }
@@ -2098,11 +2098,11 @@ li {
     }
 
     .layout--quarters :nth-child(-n+4).module {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .layout--thirds :nth-child(-n+3).module {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .layout--thirds :nth-child(2n+1).module {
@@ -2118,7 +2118,7 @@ li {
     }
 }
 
-@media all and (max-width:60em) and (min-width:33.75em) {
+@media all and (max-width:960px) and (min-width:540px) {
     .layout--thirds .module {
         margin-top: 3.2rem;
     }
@@ -2129,7 +2129,7 @@ li {
     }
 
     .layout--thirds :nth-child(-n+2).module .layout--quarters :nth-child(-n+2).module {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .layout--quarters :nth-child(2n+1).module {
@@ -2147,7 +2147,7 @@ li {
     display: inline-block;
 }
 
-@media all and (min-width:33.75em) {
+@media all and (min-width:540px) {
     .actions .button--page-primary {
         margin-top: 2.8rem;
     }
@@ -2175,7 +2175,7 @@ li {
         color: rgb(65, 65, 67);
     }
 
-@media all and (min-width:33.75em) {
+@media all and (min-width:540px) {
     .tile {
         padding: 3.2rem;
     }
@@ -2190,7 +2190,7 @@ li {
         width: 100%;
     }
 
-@media all and (max-width:60em) and (min-width:40em) {
+@media all and (max-width:960px) and (min-width:640px) {
     .layout--thirds .module--image-card {
         width: 100%;
         clear: both;
@@ -2222,29 +2222,29 @@ li {
     .layout--equal :nth-last-child(3):first-child.module--image-card .module__content {
         width: 50%;
         padding-left: 1.6rem;
-        margin-top: 0px;
+        margin-top: 0;
         float: right;
     }
 
     .layout--equal :nth-last-child(3):first-child.module--image-card ~ .module--image-card .module__content {
         width: 50%;
         padding-left: 1.6rem;
-        margin-top: 0px;
+        margin-top: 0;
         float: right;
     }
 
     .layout--thirds .module--image-card .module__content {
         width: 50%;
         padding-left: 1.6rem;
-        margin-top: 0px;
+        margin-top: 0;
         float: right;
     }
 }
 
 .visually-hidden {
     margin: -1px;
-    padding: 0px;
-    border: 0px currentColor;
+    padding: 0;
+    border: 0 currentColor;
     -moz-border-image: none;
     -o-border-image: none;
     -webkit-border-image: none;
@@ -2253,7 +2253,7 @@ li {
     height: 1px;
     overflow: hidden;
     position: absolute;
-    clip: rect(0px, 0px, 0px, 0px);
+    clip: rect(0px, 0, 0, 0);
 }
 
 .clear::after {
@@ -2274,7 +2274,7 @@ li {
     margin-top: 1rem;
 }
 
-@media all and (min-width:33.75em) {
+@media all and (min-width:540px) {
     * + * {
         margin-top: 2rem;
     }
@@ -2313,14 +2313,14 @@ p {
     max-width: 32em;
 }
 
-@media all and (min-width:48em) {
+@media all and (min-width:768px) {
     .hard-break {
-        margin-top: 0px;
+        margin-top: 0;
         display: block;
     }
 }
 
-@media all and (min-width:72em) {
+@media all and (min-width:1152px) {
     .button {
         font-size: 1.6rem;
     }
@@ -2363,7 +2363,7 @@ p {
 }
 
 .video-wrap {
-    height: 0px;
+    height: 0;
     overflow: hidden;
     padding-top: 30px;
     padding-bottom: 56.25%;
@@ -2375,24 +2375,24 @@ p {
 }
 
     .video-wrap embed {
-        left: 0px;
-        top: 0px;
+        left: 0;
+        top: 0;
         width: 100%;
         height: 100%;
         position: absolute;
     }
 
     .video-wrap iframe {
-        left: 0px;
-        top: 0px;
+        left: 0;
+        top: 0;
         width: 100%;
         height: 100%;
         position: absolute;
     }
 
     .video-wrap object {
-        left: 0px;
-        top: 0px;
+        left: 0;
+        top: 0;
         width: 100%;
         height: 100%;
         position: absolute;
@@ -2408,7 +2408,7 @@ body {
 
 .content {
     padding-bottom: 4.8rem;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .heading--subtitle {
@@ -2417,7 +2417,7 @@ body {
 
 .tabs__nav {
     list-style: none;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
     .tabs__nav li {
@@ -2425,22 +2425,22 @@ body {
     }
 
 .tabs__panel {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
-@media all and (min-width:33.75em) {
+@media all and (min-width:540px) {
     .content {
         padding-bottom: 6rem;
     }
 }
 
-@media all and (max-width:48em) {
+@media all and (max-width:768px) {
     td {
         padding: 1.2rem;
     }
 }
 
-@media all and (min-width:40em) {
+@media all and (min-width:640px) {
     .tabs__nav {
         display: inline-block;
     }
@@ -2454,15 +2454,15 @@ body {
     }
 }
 
-@media all and (min-width:48em) {
+@media all and (min-width:768px) {
     .content {
         padding-bottom: 8.4rem;
     }
 }
 
 footer {
-    padding: 2.4rem 0px;
-    margin-top: 0px;
+    padding: 2.4rem 0;
+    margin-top: 0;
 }
 
 .section--banner {
@@ -2481,7 +2481,7 @@ footer {
         margin-top: 4.8rem;
     }
 
-@media all and (min-width:33.75em) {
+@media all and (min-width:540px) {
     .section--banner {
         margin-top: 6rem;
     }
@@ -2499,7 +2499,7 @@ footer {
         }
 }
 
-@media all and (min-width:60em) {
+@media all and (min-width:960px) {
     .section--banner {
         margin-top: 8.4rem;
     }
@@ -2518,11 +2518,11 @@ footer {
 }
 
 .section--summit-intro {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .section.section--summit-faq {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .summit-intro__tile {
@@ -2538,15 +2538,15 @@ footer {
     background: rgb(92, 45, 145);
     list-style: none;
     padding: 1.2rem 2.4rem 2.4rem;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .summit-intro__tile__nav {
-    margin: 0px;
+    margin: 0;
 }
 
     .summit-intro__tile__nav li {
-        margin: 1.2rem 1.6rem 0px 0px;
+        margin: 1.2rem 1.6rem 0 0;
         display: inline-block;
     }
 
@@ -2558,7 +2558,7 @@ footer {
         border-bottom-color: rgba(255, 255, 255, 0.25);
     }
 
-@media all and (min-width:33.75em) {
+@media all and (min-width:540px) {
     .summit-intro__tile__body {
         padding: 3.2rem;
     }
@@ -2569,9 +2569,9 @@ footer {
     }
 }
 
-@media all and (min-width:48em) {
+@media all and (min-width:768px) {
     .section--summit-intro {
-        min-height: 60em;
+        min-height: 960px;
     }
 
     .summit-intro__tile {
@@ -2583,7 +2583,7 @@ footer {
 
 .list--about-summit {
     list-style: none;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 .about-summit__description {
@@ -2594,7 +2594,7 @@ footer {
     display: block;
 }
 
-@media all and (max-width:59.93em) and (min-width:40em) {
+@media all and (max-width:958px) and (min-width:640px) {
     .layout--basic .about-summit__primary {
         width: 100%;
     }
@@ -2619,7 +2619,7 @@ footer {
 .focus-areas__bar__tile {
     background: rgb(255, 140, 0);
     color: rgb(65, 65, 67);
-    margin-top: 0px;
+    margin-top: 0;
     position: relative;
     z-index: 2;
 }
@@ -2672,7 +2672,7 @@ footer {
         background: rgb(255, 140, 0);
     }
 
-@media all and (min-width:40em) {
+@media all and (min-width:640px) {
     .focus-areas__bar {
         display: flex;
         -ms-flex-wrap: wrap;
@@ -2687,8 +2687,8 @@ footer {
     }
 
     .focus-areas__bar__tile__content {
-        -ms-flex: 1 1 0px;
-        flex: 1 1 0px;
+        -ms-flex: 1 1 0;
+        flex: 1 1 0;
         -webkit-flex: 1;
     }
 
@@ -2698,9 +2698,9 @@ footer {
         -o-transition: 200ms ease-in-out;
         -webkit-transition: 200ms ease-in-out;
         transition: 200ms ease-in-out;
-        left: 0px;
+        left: 0;
         width: 100%;
-        height: 0px;
+        height: 0;
         display: block;
         position: absolute;
         content: "";
@@ -2712,16 +2712,16 @@ footer {
         -o-transition: 200ms ease-in-out;
         -webkit-transition: 200ms ease-in-out;
         transition: 200ms ease-in-out;
-        left: 0px;
+        left: 0;
         width: 100%;
-        height: 0px;
+        height: 0;
         display: block;
         position: absolute;
         content: "";
     }
 
     .focus-areas__bar__tile::before {
-        top: 0px;
+        top: 0;
     }
 
     .focus-areas__bar__tile:hover {
@@ -2741,7 +2741,7 @@ footer {
         }
 
     .focus-areas__bar__tile::after {
-        bottom: 0px;
+        bottom: 0;
     }
 
     .focus-areas__bar__tile:hover::after {
@@ -2749,9 +2749,9 @@ footer {
     }
 }
 
-@media all and (min-width:64em) {
+@media all and (min-width:1024px) {
     .focus-areas::after {
-        top: 0px;
+        top: 0;
         width: 50%;
         height: 100%;
         position: absolute;
@@ -2759,7 +2759,7 @@ footer {
     }
 
     .focus-areas::before {
-        top: 0px;
+        top: 0;
         width: 50%;
         height: 100%;
         position: absolute;
@@ -2773,7 +2773,7 @@ footer {
 
     .focus-areas::after {
         background: rgb(216, 59, 1);
-        right: 0px;
+        right: 0;
     }
 
     .focus-areas__bar__tile {
@@ -2788,7 +2788,7 @@ footer {
 }
 
 .session__avatar {
-    margin: 1.2rem 1.2rem 0px 0px;
+    margin: 1.2rem 1.2rem 0 0;
     width: 64px;
     height: 64px;
     float: left;
@@ -2799,25 +2799,25 @@ footer {
     margin-top: 0.8rem;
 }
 
-@media all and (min-width:60em) {
+@media all and (min-width:960px) {
     .session__avatars {
         margin-right: 2.4rem;
         float: left;
     }
 
     .session__avatar {
-        margin-right: 0px;
+        margin-right: 0;
         float: none;
     }
 
     :first-child.session__avatar {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .session__content {
         width: auto;
         overflow: hidden;
-        margin-top: 0px;
+        margin-top: 0;
     }
 }
 
@@ -2854,7 +2854,7 @@ footer {
     }
 
 .schedule__tabs__panels {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .summit-schedule__panel {
@@ -2871,7 +2871,7 @@ footer {
     }
 
     .summit-schedule__panel__table tr:nth-child(2n+1) {
-        background: 0px 0px;
+        background: 0 0;
     }
 
     .summit-schedule__panel__table td {
@@ -2887,7 +2887,7 @@ footer {
         .summit-schedule__panel__table td:first-child {
             width: 11rem;
             border-left-color: currentColor;
-            border-left-width: 0px;
+            border-left-width: 0;
             border-left-style: none;
         }
 
@@ -2901,19 +2901,19 @@ footer {
 
 .summit-schedule__panel__table td:nth-child(4) {
     border-right-color: currentColor;
-    border-right-width: 0px;
+    border-right-width: 0;
     border-right-style: none;
 }
 
 .summit-schedule__panel__table td[colspan='3'] {
     border-right-color: currentColor;
-    border-right-width: 0px;
+    border-right-width: 0;
     border-right-style: none;
 }
 
 .summit-schedule__panel__table tr:last-of-type td {
     border-bottom-color: currentColor;
-    border-bottom-width: 0px;
+    border-bottom-width: 0;
     border-bottom-style: none;
 }
 
@@ -2923,7 +2923,7 @@ footer {
     font-weight: 700;
 }
 
-@media all and (min-width:40em) {
+@media all and (min-width:640px) {
     .summit-schedule__panel__table td {
         width: 28%;
     }
@@ -2933,13 +2933,13 @@ footer {
         }
 }
 
-@media all and (min-width:48em) {
+@media all and (min-width:768px) {
     .connect__image-card {
         padding-top: 1.6rem;
     }
 }
 
-@media all and (max-width:40em) {
+@media all and (max-width:640px) {
     .js .room-controls {
         display: block;
     }
@@ -2966,11 +2966,11 @@ footer {
 
     .js .table-responsive .cell--active {
         border-right-color: currentColor;
-        border-right-width: 0px;
+        border-right-width: 0;
         border-right-style: none;
     }
 
     .js .table-responsive :not(.cell--social).cell--active {
-        background: 0px 0px;
+        background: 0 0;
     }
 }
