@@ -2905,12 +2905,12 @@
           "Microsoft.AspNet.FileProviders.Physical": "1.0.0-beta5",
           "Microsoft.Framework.Runtime.Abstractions": "1.0.0-beta5",
           "Microsoft.AspNet.PageExecutionInstrumentation.Interfaces": "1.0.0-beta5",
-          "System.Reflection.Extensions": "4.0.0-beta-23019",
-          "System.Runtime.InteropServices": "4.0.20-beta-23019",
-          "System.Threading": "4.0.10-beta-23019",
-          "System.Net.Sockets": "4.0.10-beta-23019",
-          "System.Collections": "4.0.10-beta-23019",
-          "Microsoft.Win32.Registry": "4.0.0-beta-23019"
+          "System.Reflection.Extensions": "4.0.0-beta-23015",
+          "System.Runtime.InteropServices": "4.0.20-beta-23015",
+          "System.Threading": "4.0.10-beta-23015",
+          "System.Net.Sockets": "4.0.10-beta-23015",
+          "System.Collections": "4.0.10-beta-23015",
+          "Microsoft.Win32.Registry": "4.0.0-beta-23015"
         },
         "compile": {
           "lib/dnxcore50/Microsoft.VisualStudio.Web.BrowserLink.Loader.dll": {}
@@ -3538,9 +3538,9 @@
           "lib/DNXCore50/System.Net.Primitives.dll": {}
         }
       },
-      "System.Net.Sockets/4.0.10-beta-23019": {
+      "System.Net.Sockets/4.0.10-beta-23015": {
         "dependencies": {
-          "System.Private.Networking": "4.0.0-beta-23019"
+          "System.Private.Networking": "4.0.0-beta-23015"
         },
         "compile": {
           "ref/dotnet/System.Net.Sockets.dll": {}
@@ -5365,7 +5365,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.BrowserLink.Loader/14.0.0-beta5": {
-      "sha512": "qKyw00koXSuLRKI+GOkdHn9FyuE21R93GZyWmVJZYXg4scb2ki3NlGT954mEVxx5WN4yqRqywe2Rc+4MSqbq1w==",
+      "sha512": "O4S+wvsm7j0/JbsP7Ol1cg99qPOXt4c2UMdegdZUKkQBxu0dMooWdHRoLQM+MJi/DP3YrEVLjRK8NXjZpZSEIg==",
       "files": [
         "Microsoft.VisualStudio.Web.BrowserLink.Loader.14.0.0-beta5.nupkg",
         "Microsoft.VisualStudio.Web.BrowserLink.Loader.14.0.0-beta5.nupkg.sha512",
@@ -5558,7 +5558,7 @@
       ]
     },
     "System.Data.Common/4.0.0-beta-23019": {
-      "sha512": "1nc7TbNJsrVZ8DAj0SF2H1dcwXI766dBVIIWYF3tHKMJYkWUzDGHJRQeSBobwriMBoGOO7EgHRf02/N93Uhe0g==",
+      "sha512": "1o8nnn6VSx1GAEfUAMIOreWbXHPPcVjvWQp4swCDBX70KM5ouv/dzmEUR//uQyVtaLOlypNFhHs12e/1sswDlA==",
       "files": [
         "System.Data.Common.4.0.0-beta-23019.nupkg",
         "System.Data.Common.4.0.0-beta-23019.nupkg.sha512",
@@ -5570,7 +5570,7 @@
       ]
     },
     "System.Data.SqlClient/4.0.0-beta-23019": {
-      "sha512": "HGwJpSecJGvv7s10rtf/quUGTUoelHmp/YHWcbs7rXe/G7gzGQiuaTsFf4vO2PGSyk1gO2gFyBTwcC8ST4Iivg==",
+      "sha512": "8NgjVIsR3165uFAu+tPlpZ8uoL14RVLV7o+YZUIBQbiKVZ+3Y8wMd+HiBMo30rbkFsOYabkCgXn6Jc26RbAIvQ==",
       "files": [
         "runtime.json",
         "System.Data.SqlClient.4.0.0-beta-23019.nupkg",
@@ -5669,7 +5669,7 @@
       ]
     },
     "System.Dynamic.Runtime/4.0.10-beta-23019": {
-      "sha512": "zq+wmgZ+VG2EL5WOnkHn5hB7BM1eYJjK2C7qcxXdamFn8Cj7rxhy6teckGeL5gNx1UAnPyIEGit56sxuw1ti/A==",
+      "sha512": "yhXko8+R8fy0RERn6xQltYEhChBNyGEQgntwjHqNBc3x1M7wvg+Ye72Bh1QVQfnMIXZ0tG8XSrQs8hJe8KjYjg==",
       "files": [
         "runtime.json",
         "System.Dynamic.Runtime.4.0.10-beta-23019.nupkg",
@@ -5738,7 +5738,7 @@
       ]
     },
     "System.IO.Compression/4.0.0-beta-23019": {
-      "sha512": "sc9LskbuP6P8pt5nLmNBKnn8sErHfAbzd19sAKy1Qz4rHx+q0nkn5nE/cAvdMstZj9st8H17KVvPFbNF49Z3Gw==",
+      "sha512": "WpKuk7P9BIdyWYoslAahQJtyaMgCMZZx7MF+VeuUZaiLtvKR9c5Sx3rXviDpVzAQH7/6yuuu+FNP/k+546Qd5g==",
       "files": [
         "runtime.json",
         "System.IO.Compression.4.0.0-beta-23019.nupkg",
@@ -5823,7 +5823,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.0-beta-23019": {
-      "sha512": "IL/eoEGttmBF22hbDSHFCqJd8N6p2ZGYUzbNO98nkLKL0LMP3l29bEwxI9zQIsADn+CHjQbsNVNAMq6UUFb86A==",
+      "sha512": "4pDZlRUuUxNRnX5hgq2+d2+4W8HeIizIhZRJuGn/iEEn9SBpsC19Rv2BCzKpETbLWNcTD5PBYM4iECRVeA80ZA==",
       "files": [
         "System.Linq.Queryable.4.0.0-beta-23019.nupkg",
         "System.Linq.Queryable.4.0.0-beta-23019.nupkg.sha512",
@@ -5839,7 +5839,7 @@
       ]
     },
     "System.Net.Http/4.0.0-beta-23019": {
-      "sha512": "Z0FOEd5NsFPmU8pfWWdaNu2efWEfBjtjml7TG/kptpGeD7XhvhkVPlhItCX1c8Jnl74qJxdSnxKN03qtmu1KJg==",
+      "sha512": "8mt4X1eIjTMrKVINJuzuFYf7C4GrYFC+tlvc2zH5HtxKPpbFZamMUdJ19ORxZ9ds053aqQASdiha7eH86PN+eg==",
       "files": [
         "System.Net.Http.4.0.0-beta-23019.nupkg",
         "System.Net.Http.4.0.0-beta-23019.nupkg.sha512",
@@ -5855,7 +5855,7 @@
       ]
     },
     "System.Net.Http.WinHttpHandler/4.0.0-beta-23019": {
-      "sha512": "ORrNgvxNdECk79Af/X5BG6EHcP7iclmS9c4uxKxRyArwjU73KO5oHzEtWEN65GRetUuohHAZc9AWs382LcTFUQ==",
+      "sha512": "C6DBRXVzX3+bkWVlUdMVqHMgIiKbZJU6E08R/rSVENmVTGHxQ9NgSwA8yBCreOeV4hcdHIa187kjFA0X6BYSRA==",
       "files": [
         "System.Net.Http.WinHttpHandler.4.0.0-beta-23019.nupkg",
         "System.Net.Http.WinHttpHandler.4.0.0-beta-23019.nupkg.sha512",
@@ -5888,11 +5888,11 @@
         "ref/net46/_._"
       ]
     },
-    "System.Net.Sockets/4.0.10-beta-23019": {
-      "sha512": "0MSBoU0yMV1K4e2QmrAzm1KDI3AtQTbXnDCKUUWN7Ynk8uyGHix66E0FjWo+8JlfB0X9ba6Keh3yG6JhUkGUJg==",
+    "System.Net.Sockets/4.0.10-beta-23015": {
+      "sha512": "1A4586YN5f57inzDCKaidVJxEczsES1t1kUPDpc3u28jA+DnfPM4SVhy2DxEPBZFdmVMANZHm/FuSqCLQ8A2RQ==",
       "files": [
-        "System.Net.Sockets.4.0.10-beta-23019.nupkg",
-        "System.Net.Sockets.4.0.10-beta-23019.nupkg.sha512",
+        "System.Net.Sockets.4.0.10-beta-23015.nupkg",
+        "System.Net.Sockets.4.0.10-beta-23015.nupkg.sha512",
         "System.Net.Sockets.nuspec",
         "lib/DNXCore50/System.Net.Sockets.dll",
         "ref/dotnet/System.Net.Sockets.dll"
@@ -6311,7 +6311,7 @@
       ]
     },
     "System.Text.Encoding.CodePages/4.0.0-beta-23019": {
-      "sha512": "CcSCJIvJxZSfWN/5CucmfKVAlKJ28qRwZpbj3sNDR4BHlw15rPjeuN2pdYJ0u6Xjb2YCnDJPZY2Oblb/LJx4ng==",
+      "sha512": "g0lWYGITectCuzFwzH1fuWHAHGmHQO8B3FrU1gUvR8DYAgxxRwbQa1jg2XJs+wzeo2KWwuvPXwXif5v4JpLXkw==",
       "files": [
         "System.Text.Encoding.CodePages.4.0.0-beta-23019.nupkg",
         "System.Text.Encoding.CodePages.4.0.0-beta-23019.nupkg.sha512",
