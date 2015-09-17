@@ -1,5 +1,5 @@
-# javascriptopenday
+# JavaScript Open Day
 A site for the JavaScript Open day. It can be found here:
 
-http://javascriptopenday.azurewebsites.net
+http://jsopenday.azurewebsites.net
 
