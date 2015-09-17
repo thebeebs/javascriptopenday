@@ -6,6 +6,7 @@ using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting;
 using Microsoft.AspNet.Http;
 using Microsoft.Framework.DependencyInjection;
+using Microsoft.AspNet.StaticFiles;
 
 namespace JavaScriptOpenDay
 {
@@ -33,7 +34,11 @@ namespace JavaScriptOpenDay
                     template: "{controller}/{action}/{id?}",
                     defaults: new { controller = "Home", action = "Index" });
             });
-app.UseStaticFiles();
+
+            app.UseStaticFiles(new StaticFileOptions()
+            {
+                OnPrepareResponse = r => r.Context.Response.Headers.Append("Expires", DateTime.Now.AddDays(7).ToUniversalTime().ToString("r"))
+            });
         }
     }
 }
